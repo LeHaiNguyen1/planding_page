@@ -6,7 +6,7 @@ export default function Hero() {
         <section id="hero" class="hero">
             <div class="container">
                 <div class="row mt-2">
-                    <div class="col-xl-6">
+                    <div class="col-xl-5">
                         <div class="h-100 d-flex align-items-center justify-content-center">
                             <ul class="list-unstyled text-light d-grid">
                                 <li>
@@ -21,19 +21,29 @@ export default function Hero() {
                                 </li>
                                 <li>
                                     <div class="row">
-                                        <div class="col-auto">
-                                            <button type="button" href="" class="btn btn-purple mb-3 text-light" id="import-material-supplier-modal" data-type-import="BUSINESS">Explore now</button>
+                                        <div class="col">
+                                            <button type="button" href="" class="btn btn-purple mb-3 text-light" id="import-material-supplier-modal">Explore now</button>
                                         </div>
-                                        <div class="col-auto">
-                                            <button type="button" href="" class="btn btn-light-purple mb-3 text-light" id="import-material-supplier-modal" data-type-import="BUSINESS">Get early Access</button>
+                                        <div class="col">
+                                            <button type="button" href="" class="btn btn-light-purple mb-3 text-light" id="import-material-supplier-modal">Get early Access</button>
+                                        </div>
+                                        <div class="col-4">
+                                            <img src={require('../../assets/images/Icon_Hero_02.svg').default} class="w-100" alt="" />
                                         </div>
                                     </div>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-6">
-                        <img src={require('../../assets/images/Phone.svg').default} class="w-100" alt="" />
+                    <div class="item-img col-xl-7 a">
+                        <div class="row justify-content-center ">
+                            <div class="img col-7">
+                                <img src={require('../../assets/images/Phone.svg').default} class="w-100" alt=""/>
+                            </div>
+                            <div class="img col-4 d-flex justify-content-center align-items-center">
+                                <img src={require('../../assets/images/Icon_Hero_02.svg').default} class="w-100" alt="" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
