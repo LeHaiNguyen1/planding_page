@@ -1,12 +1,15 @@
-import Articles from "./components/articles/Articles";
-import Navbar from "./components/navbar/Navbar"
+import Articles from "./components/hero";
+import Navbar from "./components/navbar"
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import '../src/index.css'
 
 function App() {
     return (
         <div className="container">
             <Router>
-              <Navbar/>
+                <div className="pr-5 pl-5">
+                    <Navbar/>
+                </div>
                 <Routes> 
                     <Route
                         path="/"
