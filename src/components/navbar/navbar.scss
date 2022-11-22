@@ -1,0 +1,42 @@
+.logo {
+  position: relative;
+  width: 228px;
+  height: 42px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  li {
+    a {
+      width: 95px;
+      height: 24px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      box-sizing: content-box;
+    }
+    .btn-violet {
+      width: 154px;
+      height: 53px;
+      background: #8738eb;
+      border-radius: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+// font-family: 'Poppins';
+//     font-style: normal;
+//     font-weight: 600;
+//     font-size: 14px;
+//     line-height: 21px;
+//     color: #FFFFFF;

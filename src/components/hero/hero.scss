@@ -1,0 +1,17 @@
+#hero {
+  button {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50.96px;
+    border-radius: 16px;
+  }
+  .btn-purple {
+    background: linear-gradient(180deg, #8738eb 0%, #ac9fff 100%);
+  }
+  .btn-light-purple {
+    outline: #fff solid 1px;
+  }
+}
