@@ -1,6 +1,5 @@
 #hero {
   button {
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,5 +12,6 @@
   }
   .btn-light-purple {
     outline: #fff solid 1px;
+    border-radius: 16px;
   }
 }
