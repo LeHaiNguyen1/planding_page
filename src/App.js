@@ -7,14 +7,12 @@ function App() {
     return (
         <div className="container">
             <Router>
-                <div className="pr-5 pl-5">
                     <Navbar/>
-                </div>
                 <Routes> 
                     <Route
                         path="/"
                         element={
-                            <div className="row mt-5">
+                            <div className="row">
                                 <div className="col-md-12">
                                     <Articles/>
                                 </div>
