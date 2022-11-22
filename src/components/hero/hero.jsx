@@ -25,7 +25,7 @@ export default function Hero() {
                                             <button type="button" href="" class="btn btn-purple mb-3 text-light" id="import-material-supplier-modal">Explore now</button>
                                         </div>
                                         <div class="col">
-                                            <button type="button" href="" class="btn btn-light-purple mb-3 text-light" id="import-material-supplier-modal">Get early Access</button>
+                                        <button type="button" href="" class="btn btn-outline-light mb-3 text-light" id="import-material-supplier-modal">Explore now</button>
                                         </div>
                                         <div class="col-4">
                                             <img src={require('../../assets/images/Icon_Hero_02.svg').default} class="w-100" alt="" />
