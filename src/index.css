@@ -1,9 +1,4 @@
-
-body {
- 
-}
-
-#root{
+body{
   background: url('./assets/images/BG_Hero.svg');
   height: 100%; 
   background-position: center;

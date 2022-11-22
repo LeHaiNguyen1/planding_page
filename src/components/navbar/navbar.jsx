@@ -5,7 +5,7 @@ import '../../components/navbar/navbar.scss'
 export default function Navbar() {
     return (
         <nav class="navbar navbar-expand-sm navbar-dark align-items-start pr-5 pl-5">
-            <a class="logo" href="#"> <img src={require('../../assets/images/Logo.svg').default}/></a>
+            <a class="logo" href="#"> <img src={require('../../assets/images/Logo.svg').default} class="w-100"/></a>
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse justify-content-end align-content-end" id="collapsibleNavId">

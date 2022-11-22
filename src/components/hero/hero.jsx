@@ -25,7 +25,7 @@ export default function Hero() {
                                             <button type="button" href="" class="btn btn-purple mb-3 text-light" id="import-material-supplier-modal">Explore now</button>
                                         </div>
                                         <div class="col">
-                                        <button type="button" href="" class="btn btn-outline-light mb-3 text-light" id="import-material-supplier-modal">Explore now</button>
+                                            <button type="button" href="" class="btn btn-outline-light mb-3 text-light" id="import-material-supplier-modal">Explore now</button>
                                         </div>
                                         <div class="col-4">
                                             <img src={require('../../assets/images/Icon_Hero_02.svg').default} class="w-100" alt="" />
@@ -38,7 +38,7 @@ export default function Hero() {
                     <div class="item-img col-xl-7 a">
                         <div class="row justify-content-center ">
                             <div class="img col-7">
-                                <img src={require('../../assets/images/Phone.svg').default} class="w-100" alt=""/>
+                                <img src={require('../../assets/images/Phone.svg').default} class="w-100" alt="" />
                             </div>
                             <div class="img col-4 d-flex justify-content-center align-items-center">
                                 <img src={require('../../assets/images/Icon_Hero_02.svg').default} class="w-100" alt="" />
