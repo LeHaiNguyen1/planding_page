@@ -8,8 +8,8 @@ export default function About() {
                 <div className="page-holder bg-gray-100">
                     <div className="row">
                         <div className="col-12">
-                            <p className="text-center fw-bold text-white m-4 p-4">
-                                <h1 className="text-center fw-bold text-white m-4 p-4">How to bling charge</h1>
+                        <h1 className="text-center fw-bold text-white">How to bling charge</h1>
+                            <p className="text-center text-white">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                             </p>

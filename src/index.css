@@ -1,7 +1,17 @@
-body{
-  background: url('./assets/images/BG_Hero.svg');
-  height: 100%; 
+body {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  background: url("./assets/images/BG_Hero.svg");
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover
+  background-size: cover;
+}
+p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
 }

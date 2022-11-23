@@ -10,7 +10,7 @@ export default function Hero() {
                         <div className="h-100 d-flex align-items-center justify-content-center">
                             <ul className="list-unstyled text-light d-grid">
                                 <li>
-                                    <h1 className="display-3">Chanrge & Earn</h1>
+                                    <h1 className="fs-1 fw-bold">Chanrge & Earn</h1>
                                 </li>
                                 <li>
                                     <p>
