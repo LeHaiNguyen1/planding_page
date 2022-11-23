@@ -3,17 +3,17 @@ import React from 'react'
 export default function Feature() {
     return (
         <section>
-            <div class="container">
-                <div class="row mt-2">
-                    <div class="col-xl-7 d-flex justify-content-center">
-                        <img src={require('../../assets/images/xiaomi 1.svg').default} class="w-100" alt="" />
+            <div className="container">
+                <div className="row mt-2">
+                    <div className="col-xl-7 d-flex justify-content-center">
+                        <img src={require('../../assets/images/xiaomi 1.svg').default} className="w-100" alt="" />
                     </div>
-                    <div class="col-xl-5">
-                        <div class="">
-                            <ul class="list-unstyled text-light d-grid">
+                    <div className="col-xl-5">
+                        <div className="">
+                            <ul className="list-unstyled text-light d-grid">
                                 <li>
-                                    <h1 class="display-4">Let your charger</h1>
-                                    <h1 class="display-4">make money for you</h1>
+                                    <h1 className="display-4">Let your charger</h1>
+                                    <h1 className="display-4">make money for you</h1>
                                 </li>
                                 <li>
                                     <p>
@@ -27,21 +27,21 @@ export default function Feature() {
                                     </p>
                                 </li>
                                 <li>
-                                    <div class="row mt-3">
-                                        <div class="col-2"><img src={require('../../assets/images/352783 1.svg').default} class="w-100" alt="" /></div>
-                                        <div class="col-10 d-flex align-items-center"><p>Buy NFT adapter or take NFT 5W___</p></div>
+                                    <div className="row mt-3">
+                                        <div className="col-2"><img src={require('../../assets/images/352783 1.svg').default} className="w-100" alt="" /></div>
+                                        <div className="col-10 d-flex align-items-center"><p>Buy NFT adapter or take NFT 5W___</p></div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="row mt-3">
-                                        <div class="col-2"><img src={require('../../assets/images/352783 2.svg').default} class="w-100" alt="" /></div>
-                                        <div class="col-10 d-flex align-items-center"><p>Cắm sạc điện thoại ___ app Sit back</p></div>
+                                    <div className="row mt-3">
+                                        <div className="col-2"><img src={require('../../assets/images/352783 2.svg').default} className="w-100" alt="" /></div>
+                                        <div className="col-10 d-flex align-items-center"><p>Cắm sạc điện thoại ___ app Sit back</p></div>
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="row mt-3">
-                                        <div class="col-2"><img src={require('../../assets/images/352783 4.svg').default} class="w-100" alt="" /></div>
-                                        <div class="col-10 d-flex align-items-center"><p>and watch money ____</p></div>
+                                    <div className="row mt-3">
+                                        <div className="col-2"><img src={require('../../assets/images/352783 4.svg').default} className="w-100" alt="" /></div>
+                                        <div className="col-10 d-flex align-items-center"><p>and watch money ____</p></div>
                                     </div>
                                 </li>
                             </ul>

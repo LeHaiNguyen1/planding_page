@@ -1,10 +1,17 @@
 footer {
+	background-image: url('../../assets/images/footer.jpg');
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
 	color: white;
 	margin-top: 100px;
 	a {
 		color: #fff;
 		font-size: 14px;
 		transition-duration: 0.2s;
+		
 		&:hover {
 			color: #FA944B;
 			text-decoration: none;
