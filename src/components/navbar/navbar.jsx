@@ -4,9 +4,9 @@ import './navbar.scss'
 
 export default function Navbar() {
     return (
-        <section>
+        <section id='navbar' className='navbar'>
             <nav className="container navbar navbar-expand-sm navbar-dark align-items-start pr-5 pl-5">
-                <a className="logo" href="#"> <img src={require('../../assets/images/Logo.svg').default}></img></a>
+                <a className="logo" href="#"> <img src={require('../../assets/images/Logo.svg').default} className="w-100"></img></a>
                 <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                     aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
                 <div className="collapse navbar-collapse justify-content-end align-content-end" id="collapsibleNavId">
