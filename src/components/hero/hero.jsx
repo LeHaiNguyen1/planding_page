@@ -22,10 +22,10 @@ export default function Hero() {
                                 <li>
                                     <div className="row">
                                         <div className="col">
-                                            <button type="button" href="" className="btn btn-purple mb-3 text-light" id="import-material-supplier-modal">Explore now</button>
+                                            <button type="" href="" className="btn btn-purple mb-3 text-light" id="import-material-supplier-modal">Explore now</button>
                                         </div>
                                         <div className="col">
-                                            <button type="button" href="" className="btn btn-outline-light mb-3 text-light" id="import-material-supplier-modal">Explore now</button>
+                                            <button type="" href="" className="btn btn-purple-light mb-3 text-light" id="import-material-supplier-modal">Explore now</button>
                                         </div>
                                         <div className="col-4">
                                             <img src={require('../../assets/images/Icon_Hero_02.svg').default} className="w-100" alt="" />
@@ -37,7 +37,7 @@ export default function Hero() {
                     </div>
                     <div className="item-img col-xl-7 a">
                         <div className="row justify-content-center ">
-                            <div className="img col-7">
+                            <div className="img col-7 position-relative">
                                 <img src={require('../../assets/images/Phone.svg').default} className="w-100" alt="" />
                             </div>
                             <div className="img col-4 d-flex justify-content-center align-items-center">

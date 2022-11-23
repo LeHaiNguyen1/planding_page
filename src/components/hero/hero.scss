@@ -1,5 +1,5 @@
 #hero {
-  button {
+   button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,11 +10,8 @@
   .btn-purple {
     background: linear-gradient(180deg, #8738eb 0%, #ac9fff 100%);
   }
-  
-  .item-img {
-    .img {
-      z-index: 1;
-    }
+  .btn-purple-light{
+    border: 1px solid #fff;
   }
 }
 

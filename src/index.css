@@ -8,10 +8,16 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
 }

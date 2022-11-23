@@ -12,14 +12,16 @@ export default function Walkincrypto() {
                         </div>
                     </div>
                 </div>
-                <div className="row d-flex justify-content-center pt-lg-5 m-2 p-2">
-                    <div className="d-flex justify-content-center mb-xl-0">
-                        <div className="position-relative">
-                            <ul className="list-unstyled text-light d-grid text-center row">
-                                <li><h1>Just Charge and Earn</h1></li>
-                                <li>You can get started with your marketing automation in a few minutesand you can send email newsletter </li>
-                                <li>with your audienceYou can get started with your marketing automation in a few</li>
-                            </ul>
+                <div className="row d-flex justify-content-center pt-lg-5 ml-5 pl-5">
+                    <div className="page-holder bg-gray-100">
+                        <div className="row">
+                            <div className="col-12 position-relative">
+                                <h1 className="text-center fw-bold text-white">How to bling charge</h1>
+                                <p className="text-center text-white">
+                                    You can get started with your marketing automation in a few minutesand you can send email <br />
+                                    newsletter with your audienceYou can get started with your marketing automation in a few
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
