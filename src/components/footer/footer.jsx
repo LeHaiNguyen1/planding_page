@@ -43,8 +43,8 @@ export default function Footer() {
                             <ul className="social-network social-circle">
                                 <li><p>Indonesia Jl. Griya Permata Hijau no D1 Sukabumi Utara 543881</p></li>
                                 <li className="text-center"><a href="#" className="icoFacebook" title="Facebook"><i className="fa fa-facebook"></i></a></li>
-                                <li className="text-center"><a href="#" className="icoLinkedin" title="Linkedin"><i className="fa fa-linkedin"></i></a></li>
-                                <li className="text-center"><a href="#" className="icoLinkedin" title="Linkedin"><i className="fa fa-linkedin"></i></a></li>
+                                <li className="text-center"><a href="#" className="icoTwitter" title="LinTwitter"><i className="fa fa-twitter"></i></a></li>
+                                <li className="text-center"><a href="#" className="icoInstagram" title="Instagram"><i className="fa fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>

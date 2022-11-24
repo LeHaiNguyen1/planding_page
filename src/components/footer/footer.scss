@@ -13,7 +13,7 @@ ul {
 }
 .social-network {
 	a {
-		background-color: #F9F9F9;
+		border: 1px solid #8738EB;
 		&.icoFacebook {
 			&:hover {
 				background-color: #3B5998;
@@ -28,11 +28,11 @@ ul {
 }
 .social-network a.icoFacebook:hover i,
   .social-network a.icoLinkedin:hover i {
-	color: #fff;
+	color: rgb(0, 0, 0);
 }
 .social-network a.socialIcon:hover,
   .socialHoverClass {
-	color: #44BCDD;
+	color: #ffffff;
 }
 .social-circle {
 	li {
@@ -54,7 +54,7 @@ ul {
 		}
 	}
 	i {
-		color: #595959;
+		color: #8738EB;
 		-webkit-transition: all 0.8s;
 		-moz-transition: all 0.8s;
 		-o-transition: all 0.8s;
