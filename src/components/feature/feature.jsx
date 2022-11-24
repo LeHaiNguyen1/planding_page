@@ -1,19 +1,19 @@
 import React from 'react'
+import './feature.scss'
 
 export default function Feature() {
     return (
-        <section>
+        <section id='feature' className='feature'>
             <div className="container">
                 <div className="row mt-2">
                     <div className="col-xl-7 d-flex justify-content-center">
                         <img src={require('../../assets/images/xiaomi 1.svg').default} className="w-100" alt="" />
                     </div>
                     <div className="col-xl-5">
-                        <div className="">
+                        <div className="mt-5 pt-2 pb-5">
                             <ul className="list-unstyled text-light d-grid">
                                 <li>
-                                    <h1 className="display-4">Let your charger</h1>
-                                    <h1 className="display-4">make money for you</h1>
+                                    <h1>Let your charger make money for you</h1>
                                 </li>
                                 <li>
                                     <p>

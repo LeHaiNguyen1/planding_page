@@ -3,15 +3,13 @@ import './outputFloor.scss'
 
 export default function OutputFloor() {
     return (
-        <section id='section-steps' className="item-trial-flow">
+        <section id='outputFloor' className="item-trial-flow">
             <div className="container">
-                <div className="row d-flex justify-content-center">
+                <div className="row">
                     <div className="page-holder bg-gray-100">
-                        <div className="row">
-                            <div className="col-12">
-                                <h1 className="text-center fw-bold text-white m-4 p-4">Chose your adapter</h1>
+                            <div className="row d-flex justify-content-center">
+                                <h1>Chose your adapter</h1>
                             </div>
-                        </div>
                     </div>
                 </div>
                 <div className="row">
@@ -48,7 +46,7 @@ export default function OutputFloor() {
                 </div>
                 <div className="row d-flex justify-content-center">
                     <div className="page-holder bg-gray-100 d-flex justify-content-center">
-                        <a type="button" href="" className="btn btn-outline-light mb-3 text-light" id="import-material-supplier-modal">Explore Now</a>
+                        <button type="button" href="" className="btn mb-3 text-light" id="import-material-supplier-modal">Explore Now</button>
                     </div>
                 </div>
 

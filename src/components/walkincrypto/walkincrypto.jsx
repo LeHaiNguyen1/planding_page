@@ -3,12 +3,12 @@ import './walkincrypto.scss'
 
 export default function Walkincrypto() {
     return (
-        <section id='walkincrypto' className='container  d-flex justify-content-center align-items-center'>
+        <section id='walkincrypto' className='d-flex justify-content-center align-items-center'>
             <div className='container btn-item '>
-                <div className='row position-relative'>
+                <div className='row position-relative mt-4'>
                     <img src={require('../../assets/images/Blingcharge.svg').default} className="w-100" alt="" />
                 </div>
-                <div className='row position-relative justify-content-center'>
+                <div className='row position-relative justify-content-center text-center'>
                     <h1>Just Charge and Earn</h1>
                     <p className="text-center text-white">
                         You can get started with your marketing automation in a few minutesand you can send email

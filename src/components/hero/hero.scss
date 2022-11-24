@@ -1,7 +1,6 @@
 #hero {
-  ul li {
+
     p {
-      padding-top: 70px;
       font-family: "Poppins";
       font-style: normal;
       font-weight: 400;
@@ -10,9 +9,6 @@
       color: #ffffff;
     }
     h1 {
-      position: absolute;
-      width: 411px;
-      height: 84px;
       font-family: "Poppins";
       font-style: normal;
       font-weight: 600;
@@ -35,11 +31,7 @@
       border: 1px solid #ffffff;
       border-radius: 16px;
     }
-    .item-img {
-      width: 180px;
-      height: 183px;
-    }
-  }
+  
   .item-img {
     &:before {
       content: "";

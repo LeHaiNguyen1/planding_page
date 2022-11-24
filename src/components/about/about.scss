@@ -74,4 +74,7 @@
             }
         }
     }
+    @media screen and (min-width: 320px) {
+        min-height: 0;
+    }
 }

@@ -5,20 +5,15 @@ export default function Hero() {
     return (
         <section id="hero" className="hero">
             <div className="container">
-                <div className="row mt-2">
+                <div className="row d-flex align-items-center justify-content-center">
                     <div className="col-xl-5">
-                        <div className="h-100 d-flex align-items-center justify-content-center">
+                            <h1 className="fs-1 fw-bold">Chanrge & Earn</h1>
+                            <p>
+                                You can get started with your marketing automation in a few minutesand you can
+                                send email newsletter with your audienceYou can get started with your marketing
+                                automation in a few
+                            </p>
                             <ul className="row list-unstyled text-light ">
-                                <li>
-                                    <h1 className="fs-1 fw-bold">Chanrge & Earn</h1>
-                                </li>
-                                <li>
-                                    <p>
-                                        You can get started with your marketing automation in a few minutesand you can
-                                        send email newsletter with your audienceYou can get started with your marketing
-                                        automation in a few
-                                    </p>
-                                </li>
                                 <li>
                                     <div className="row">
                                         <div className="col-auto">
@@ -33,7 +28,6 @@ export default function Hero() {
                                     </div>
                                 </li>
                             </ul>
-                        </div>
                     </div>
                     <div className="item-img col-xl-7">
                         <div className="row justify-content-center">

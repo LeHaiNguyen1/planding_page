@@ -9,16 +9,18 @@ import Walkincrypto from "./components/walkincrypto/walkincrypto.jsx";
 
 function App() {
     return (
-        <div className="container-fluid">
-            <header>
+        <div>
+            <menu>
                 <Navbar />
+            </menu>
+            <header>
+                <Articles />
             </header>
             <main>
-                <Articles />
-                <About/>
-                <Walkincrypto/>
-                <OutputFloor/>
-                <Feature/>
+                <About />
+                <Walkincrypto />
+                <OutputFloor />
+                <Feature />
             </main>
             <footer>
                 <Footer />

@@ -1,7 +1,31 @@
-#section-steps{
-    .card-item{
+#outputFloor {
+    h1 {
+        width: 495px;
+        height: 64px;
+
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #ffffff;
+    }
+    .card-item {
         width: 85%;
     }
+
+    button {
+        width: 150px;
+        height: 48px;
+        border: 1px solid #ffffff;
+        border-radius: 16px;
+    }
+
+    @media screen and (min-width: 320px) {
+        h1 {
+            font-size: 36px;
+        }
+    }
 }
-
-

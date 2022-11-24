@@ -20,10 +20,10 @@ export default function Footer() {
                             <div className="footer-pad">
                                 <h4>Categories</h4>
                                 <ul className="list-unstyled d-grid">
-                                    <li><a href="#">Art</a></li>
-                                    <li><a href="#">Collections</a></li>
-                                    <li><a href="#">Domain Name</a></li>
-                                    <li><a href="#">Creator NFT</a></li>
+                                    <li><p href="#">Art</p></li>
+                                    <li><p href="#">Collections</p></li>
+                                    <li><p href="#">Domain Name</p></li>
+                                    <li><p href="#">Creator NFT</p></li>
                                 </ul>
                             </div>
                         </div>
@@ -31,10 +31,10 @@ export default function Footer() {
                             <div className="footer-pad">
                                 <h4>Contact us</h4>
                                 <ul className="list-unstyled d-grid">
-                                    <li><a href="#">Platform Status</a></li>
-                                    <li><a href="#">Custumer services</a></li>
-                                    <li><a href="#">Partner</a></li>
-                                    <li><a href="#">Privacy policy</a></li>
+                                    <li><p href="#">Platform Status</p></li>
+                                    <li><p href="#">Custumer services</p></li>
+                                    <li><p href="#">Partner</p></li>
+                                    <li><p href="#">Privacy policy</p></li>
                                 </ul>
                             </div>
                         </div>
