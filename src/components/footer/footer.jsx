@@ -11,7 +11,7 @@ export default function Footer() {
                         <div className="col-md-4 col-sm-6">
                             <div className="footer-pad">
                                 <a href="#"> <img src={require('../../assets/images/Logo_02.svg').default} /></a>
-                                <ul className="list-unstyled d-grid">
+                                <ul className="list-unstyled d-grid mt-4">
                                     <li><p>Various kinds of NFT that are trending the trend will be reset and every week creator will show NFT</p></li>
                                 </ul>
                             </div>
