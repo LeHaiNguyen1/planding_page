@@ -29,7 +29,7 @@ export default function About() {
                 <div className="col-12  ">
                     <div className="item-bg bg-dark tab-content">
                         <div className="tab-pane fade show active">
-                            <div className="mt-2 p-4">
+                            <div className="mt-2 p-4 position-relative">
                                 <div className="align-items-start" data-aos="zoom-in" data-aos-delay="400">
                                     <div className="row">
                                         <Slider {...settings}>

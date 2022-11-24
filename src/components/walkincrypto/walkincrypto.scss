@@ -1,15 +1,72 @@
-@media screen and (min-width: 768px) {
+#walkincrypto {
+    margin-top: 3.5rem;
+    min-height: 55rem;
+    img {
+        width: 403px;
+        height: 519px;
+        left: 522px;
+        top: 2155px;
+    }
+    h1 {
+        width: 617px;
+        height: 84px;
+        left: 415px;
+        top: 2704px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        line-height: 84px;
+        text-transform: capitalize;
+        color: #ffffff;
+    }
+    p {
+        width: 944px;
+        height: 125px;
+        left: 251px;
+        top: 2788px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    /*Smart phone nhỏ*/
+@media screen and (min-width: 240px){
+    h1 {
+        font-size: 32px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 320px){
+    h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    h1 {
+        font-size: 56px;
+    }
+    p{
+        font-size: 18px;
+    }
     .btn-item {
-        min-height: 63rem;
         &:before {
             content: "";
             position: absolute;
-            min-height: 63rem;
-            min-width: 81rem;
+            width: 1144px;
+            height: 1030px;
+            left: 185px;
+            top: 1564px;
             background-repeat: no-repeat;
             background-image: url("../../assets/images/walkincrypto-intro.svg");
             transition: 0.25s;
-            //   display: flex;
         }
     }
+}
 }
