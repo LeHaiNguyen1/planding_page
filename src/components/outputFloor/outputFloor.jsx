@@ -1,4 +1,5 @@
 import React from 'react'
+import './outputFloor.scss'
 
 export default function OutputFloor() {
     return (
@@ -20,13 +21,13 @@ export default function OutputFloor() {
                         </div>
                     </div>
                     <div className="col-md-2 col-xl-4 mb-4 mb-xl-0">
-                        <div className="position-relative card-item-step2">
+                        <div className="position-relative">
                             <img src={require('../../assets/images/20.svg').default} className="w-100" alt="" />
                         </div>
                     </div>
                     <div className="col-md-2 col-xl-4 mb-4 mb-xl-0">
-                        <div className="position-relative card-item-step2">
-                            <img src={require('../../assets/images/30 1.svg').default} className="w-100" alt="" />
+                        <div className="position-relative">
+                            <img src={require('../../assets/images/30 1.svg').default} className="card-item" alt="" />
                         </div>
                     </div>
                     <div className="col-md-2 col-xl-4 mb-4 mb-xl-0">
@@ -35,13 +36,13 @@ export default function OutputFloor() {
                         </div>
                     </div>
                     <div className="col-md-2 col-xl-4 mb-4 mb-xl-0">
-                        <div className="position-relative card-item-step2">
+                        <div className="position-relative">
                             <img src={require('../../assets/images/45.svg').default} className="w-100" alt="" />
                         </div>
                     </div>
                     <div className="col-md-2 col-xl-4 mb-4 mb-xl-0">
-                        <div className="position-relative card-item-step2">
-                            <img src={require('../../assets/images/61.svg').default} className="w-100" alt="" />
+                        <div className="position-relative">
+                            <img src={require('../../assets/images/61.svg').default} className=" card-item" alt="" />
                         </div>
                     </div>
                 </div>
