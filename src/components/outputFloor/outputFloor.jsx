@@ -15,12 +15,12 @@ export default function OutputFloor() {
                 <div className="row">
                     <div className="col-md-2 col-xl-4 mb-4 mb-xl-0">
                         <div className="position-relative">
-                            <img src={require('../../assets/images/10.svg').default} className="w-100" alt="" />
+                            <img src={require('../../assets/images/10.svg').default} className="card-item-min" alt="" />
                         </div>
                     </div>
                     <div className="col-md-2 col-xl-4 mb-4 mb-xl-0">
                         <div className="position-relative">
-                            <img src={require('../../assets/images/20.svg').default} className="w-100" alt="" />
+                            <img src={require('../../assets/images/20.svg').default} className="card-item-min" alt="" />
                         </div>
                     </div>
                     <div className="col-md-2 col-xl-4 mb-4 mb-xl-0">
@@ -30,12 +30,12 @@ export default function OutputFloor() {
                     </div>
                     <div className="col-md-2 col-xl-4 mb-4 mb-xl-0">
                         <div className="position-relative">
-                            <img src={require('../../assets/images/40.svg').default} className="w-100" alt="" />
+                            <img src={require('../../assets/images/40.svg').default} className="card-item-min" alt="" />
                         </div>
                     </div>
                     <div className="col-md-2 col-xl-4 mb-4 mb-xl-0">
                         <div className="position-relative">
-                            <img src={require('../../assets/images/45.svg').default} className="w-100" alt="" />
+                            <img src={require('../../assets/images/45.svg').default} className="card-item-min" alt="" />
                         </div>
                     </div>
                     <div className="col-md-2 col-xl-4 mb-4 mb-xl-0">
